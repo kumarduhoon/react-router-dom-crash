@@ -1,11 +1,13 @@
 import React from "react"
-import "./App.css"
+import { Header } from "./components"
+import { Footer } from "./components"
 
 function App() {
 
   return (
     <>
-      <h1>Hellow World !</h1>
+      <Header />
+      <Footer />
     </>
   )
 }
