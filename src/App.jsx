@@ -9,6 +9,7 @@ import Services from "./pages/Services/Services"
 import Signup from "./pages/SignUp/Signup"
 import Signin from "./pages/SignUp/Signup"
 import ErrorPage from "./pages/Error/error-page"
+import PrivateRoutes from "./Routes/Private_Routes"
 
 
 function App() {
@@ -65,6 +66,10 @@ function App() {
         <Route path='sign-up' element={<Signup />} />
         <Route path='sign-in' element={<Signin />} />
         <Route path='*' element={<ErrorPage />} />
+        {/* <Route element={<PrivateRoutes/>}>
+              <Route path='/' element={<Users/>} />
+              <Route path='/products' element={<Products/>} />
+        </Route> */}
       </Route>
     )
   )
