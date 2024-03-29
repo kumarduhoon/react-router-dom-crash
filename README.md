@@ -1,8 +1,5 @@
-# React + Vite
+# React router Dom
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is all about the React Router Dom. This is a Scaffolding type code base . In this code i tried to explain how react rouet v6 working
+if you want to go deep then go to this link -[react router](https://reactrouter.com/en/main)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
