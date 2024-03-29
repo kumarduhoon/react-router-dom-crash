@@ -12,8 +12,6 @@ function Header() {
                         </NavLink>
                     </div>
                     <div className="hidden ml-10 lg:flex lg:items-center lg:mr-auto lg:space-x-10">
-                        <NavLink to="/" title="Home" className="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Home </NavLink>
-
                         <NavLink to="/about" title="About" className="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> About </NavLink>
 
                         <NavLink to="/blog" title="Blog" className="text-base font-medium text-white transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Blog </NavLink>
